@@ -1,0 +1,59 @@
+@import "~vue-material/dist/theme/variables.scss";
+@import "~vue-material/dist/theme/engine";
+@import "~vue-material/dist/theme/functions";
+
+
+@include md-register-theme("alexis", (
+        primary: #e34606,
+        accent: #00967f,
+        danger: #ff0000,
+        success: #00af0b,
+        background: #fff,
+        backgroundAccent: #e1e1e1,
+        theme: light
+));
+
+@include md-register-theme("raph", (
+        accent: #e34606,
+        primary: #00967f,
+        danger: #ff0000,
+        success: #00af0b,
+        background: #fff,
+        backgroundAccent: #e1e1e1,
+        theme: light
+));
+
+@include md-register-theme("default", (
+        primary: #522da8,
+        accent: #fa054a,
+        danger: #ff0000,
+        success: #00af0b,
+        background: #fff,
+        backgroundAccent: #e1e1e1,
+        theme: light
+));
+
+@include md-register-theme("light", (
+        primary: #8559da,
+        accent: #ff5b75,
+        danger: #ff0000,
+        success: #00af0b,
+        background: #fff,
+        backgroundAccent: #e1e1e1,
+        theme: light
+));
+
+@include md-register-theme("night", (
+        primary: #522da8,
+        accent: #fa054a,
+        danger: #ff0000,
+        success: #00af0b,
+        background: #424242,
+        backgroundAccent: #383838,
+        theme: dark
+));
+
+
+
+
+@import "~vue-material/dist/theme/all";
